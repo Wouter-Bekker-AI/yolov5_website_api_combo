@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  #background-image: url('/static/resources/Background.jpg');
+}
+
+.form-signin {
+  background-image: url('/static/resources/White_Box.jpg');
+  max-width: 360px;
+  min-height: 830px;
+  width: auto;
+  height: auto;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: center;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
